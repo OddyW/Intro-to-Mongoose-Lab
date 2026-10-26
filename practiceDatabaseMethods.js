@@ -85,11 +85,6 @@ async function updateOneRecipeByItsId(){
 
 //delete Recipe by id
 
-async function deleteOneBookByItsId(){
-    const deletedBook = await Book.findByIdAndDelete('6adf0ac666c56bee55bdf5e4')
-    console.log('Deleted book is ' +deletedBook)
-}
-
 
 async function deleteOneRecipeByItsId(){
     try{
